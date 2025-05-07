@@ -2,7 +2,7 @@ source "http://rubygems.org"
 
 gemspec
 
-gem "rspec-rails", ">=2.14.0"
+gem "rspec-rails", ">= 8.0.0"
 gem "therubyrhino"
 gem "therubyracer"
 gem "jasmine"
