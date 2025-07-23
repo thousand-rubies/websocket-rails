@@ -2,7 +2,7 @@ source "http://rubygems.org"
 
 gemspec
 
-gem "rspec-rails", ">=2.14.0"
+gem "rspec-rails", ">= 2.14.2"
 gem "therubyrhino"
 gem "therubyracer"
 gem "jasmine"
@@ -14,9 +14,9 @@ gem "eventmachine"
 gem "faye-websocket"
 gem "simplecov"
 gem "ruby_gntp"
-gem "guard"
-gem "guard-rspec"
-gem "guard-coffeescript"
+gem "guard", ">= 2.6.0"
+gem "guard-rspec", ">= 4.2.9"
+gem "guard-coffeescript", ">= 2.0.0"
 gem "rb-fsevent"
 
 platforms :jruby do
