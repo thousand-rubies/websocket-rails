@@ -2,14 +2,14 @@ source "http://rubygems.org"
 
 gemspec
 
-gem "rspec-rails", ">=2.14.0"
+gem "rspec-rails", ">= 2.14.2"
 gem "therubyrhino"
 gem "therubyracer"
-gem "jasmine"
+gem "jasmine", ">= 2.0.1"
 gem "headless"
 gem "selenium-webdriver"
 gem "coffee-script"
-gem "thin"
+gem "thin", ">= 1.7.0"
 gem "eventmachine"
 gem "faye-websocket"
 gem "simplecov"
